@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>BTS SIO</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <label for="toggle">☰</label>
+        <input type="checkbox" id="toggle" />
+        <ul class="menu">
+          <li><a href="index.html">ACCUEIL</a></li>
+          <li><a href="btssiio.html">BTS SIO</a></li>
+          <li><a href="tableau-c.html">TABLEAU COMPETENCE</a></li>
+          <li><a href="veille.html">VEILLE</a></li>
+          <li><a href="stage.html">STAGES</a></li>
+        </ul>
+        <h1 class="taskbare">Mathis Guitton</h1>
+      </nav>
+    </div>
+    <div class="back2">
+      <div class="topbanner"><h1 class="h1banner">VEILLE</h1></div>
+    </div>
+    <div class="back4">
+      <div class="modern-box2">
+        <div>
+          <h1>PRESENTATION VEILLE</h1>
+          <p>
+            La veille informatique est un processus de surveillance continue qui
+            consiste à collecter, analyser et suivre les informations liées aux
+            nouvelles technologies, aux évolutions logicielles, aux menaces de
+            sécurité et aux tendances du secteur informatique.
+          </p>
+          <p>
+            Elle permet aux entreprises et aux professionnels de rester à jour
+            sur les avancées technologiques et d’anticiper les changements
+            pouvant affecter leur activité. Les domaines surveillés incluent :
+          </p>
+          <ul>
+            <li>🔹 Innovations et nouvelles technologies</li>
+            <li>🔹 Mises à jour logicielles</li>
+            <li>🔹 Vulnérabilités en cybersécurité</li>
+            <li>🔹 Évolutions réglementaires</li>
+          </ul>
+          <p>En résumé, la veille informatique aide à :</p>
+          <ul>
+            <li>✅ Anticiper les évolutions du marché et des technologies.</li>
+            <li>✅ Protéger les systèmes contre les menaces émergentes.</li>
+            <li>✅ Adopter les innovations pour améliorer les performances.</li>
+            <li>✅ Surveiller la concurrence et rester compétitif.</li>
+          </ul>
+        </div>
+        <article class="container">
+          <div class="presentationt">
+            <h1>MA VEILLE</h1>
+            <p>
+              Pour faire ma veille j'utilise plusieur platforme pour me
+              permettre de grouper les informations, d'avoir plusieurs sources.
+              J'utilise linkdin en suivant des personnes actives dans le domaie
+              de la cyber mais aussi des organisme certifier comme la CNIL, CERT
+              FR et IT-CONNECT<br />
+              Mais aussi des outils plus specifique comme feedly qui posséde
+              plusieurs fonctionnaliter interessente comme le regroupement de
+              flux RSS ou encore leur personnalisation par categorie.<br />
+              <br />
+              Voici le théme pour ma veille :
+            </p>
+            <!-- Section 1 -->
+            <h3 class="titre3" onclick="toggleContenu('contenu1')">
+              Routeur Fortinet
+            </h3>
+            <div id="contenu1" class="contenu">
+              <p>
+                Fortinet est un acteur majeur dans le domaine de la
+                cybersécurité, reconnu pour sa gamme complète de produits de
+                sécurité réseau. Sa technologie repose notamment sur le système
+                d'exploitation FortiOS, utilisé dans ses pare-feux, routeurs et
+                appliances de sécurité.
+                <br />
+                <br />
+                Fonctionnalités clés :
+              </p>
+              <ul>
+                <li>
+                  - Pare-feu nouvelle génération (NGFW) : Inspection approfondie
+                  des paquets, contrôle des applications, filtrage d'URL et
+                  prévention des intrusions.
+                </li>
+                <li>
+                  - VPN IPsec et SSL : Support de tunnels VPN pour sécuriser les
+                  communications entre sites ou pour les utilisateurs distants.
+                </li>
+                <li>
+                  - Inspection SSL/TLS : Analyse du trafic chiffré pour détecter
+                  les menaces cachées dans les flux HTTPS.
+                </li>
+                <li>
+                  - SD-WAN intégré : Optimisation dynamique des liaisons WAN
+                  pour améliorer les performances des applications critiques.
+                </li>
+                <li>
+                  - Gestion centralisée avec FortiOS : Système d'exploitation
+                  unifié pour une administration simplifiée et cohérente.
+                </li>
+                <li>
+                  - Protection contre les menaces avancées : Intégration avec
+                  les services FortiGuard pour une défense proactive contre les
+                  malwares, les attaques zero-day et autres menaces.​
+                </li>
+              </ul>
+            </div>
+            <script>
+              // Fonction pour afficher ou masquer le contenu
+              function toggleContenu(id) {
+                var contenu = document.getElementById(id);
+                if (
+                  contenu.style.display === "none" ||
+                  contenu.style.display === ""
+                ) {
+                  contenu.style.display = "block";
+                } else {
+                  contenu.style.display = "none";
+                }
+              }
+            </script>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="presentation_stage">
+      <div style="text-align: center; padding: 50px">
+        <h2>FLUX RSS UTILISES</h2>
+      </div>
+      <div class="containerrss">
+        <div>
+          <!-- start feedwind code -->
+          <script
+            type="text/javascript"
+            src="https://feed.mikle.com/js/fw-loader.js"
+            preloader-text="Loading"
+            data-fw-param="171531/"
+          ></script>
+          <!-- end feedwind code -->
+        </div>
+        <div>
+          <!-- start feedwind code -->
+          <script
+            type="text/javascript"
+            src="https://feed.mikle.com/js/fw-loader.js"
+            preloader-text="Loading"
+            data-fw-param="171964/"
+          ></script>
+          <!-- end feedwind code -->
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footertexte">
+        <img class="reseau" src="../image/reseau.png" alt="" />
+        <p class="footerd">© 2023 Mathis Guitton</p>
+        <center>
+          <hr noshade size="5" width="96%" color="#fff" />
+        </center>
+        <a href="../Mentions legals.pdf">MENTIONS LEGALS</a>
+      </div>
+    </footer>
+  </body>
+</html>
