@@ -916,8 +916,8 @@ tr:hover {
   justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
-  max-width: 1200px;
-  height: 400px;
+  max-width: 1200px; /* ✅ Plus large */
+  height: 400px; /* ✅ Moins haute */
   padding: 40px;
   border-radius: 10px;
 }
