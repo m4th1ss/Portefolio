@@ -245,10 +245,14 @@ ul li a:hover {
   shape-outside: margin-box;
   margin: 0 50px 30px 0;
 }
-.presentationt {
+.presentationindex {
   margin-right: 100px;
   margin-left: 100px;
   margin-top: 75px;
+}
+.presentationt {
+  margin-right: 100px;
+  margin-left: 100px;
 }
 .esupec_batiment {
   width: 600px;
@@ -905,6 +909,50 @@ tr:hover {
   font-size: 16px;
   line-height: 1.6;
 }
+
+.modern-box3 {
+  width: 90%;
+  padding: 30px;
+  margin: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modern-box3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.modern-box3 h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.modern-box3 p {
+  color: #555;
+  line-height: 1.8;
+  font-weight: 300;
+  font-size: 16px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.modern-box3 ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.modern-box3 ul li {
+  color: #444;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
 .flechet {
   padding: 10%;
   width: 35%;
@@ -947,4 +995,38 @@ tr:hover {
   font-size: 1.1em;
   line-height: 1.6;
   text-align: center;
+}
+
+.card-containerveille {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+
+.cardveille {
+  width: 30%;
+  background-color: white;
+  text-align: center;
+  border: none;
+}
+
+.cardveille h3 {
+  margin: 15px 0 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.cardveille img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.cardveille a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
